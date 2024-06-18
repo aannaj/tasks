@@ -27,5 +27,24 @@ const styles = StyleSheet.create({
     },
     taskList:{
       flex: 7
+    },
+    titleBar:{
+        flex:1,
+        justifyContent: 'flex-end'
+    },
+    title:{
+        fontFamily: 'Arial',
+        fontSize: 50,
+        color: '#FFF',
+        marginLeft: 20,
+        marginBottom: 20
+    },
+    subTitle:{
+        fontFamily: 'Arial',
+        fontSize: 50,
+        color: '#FFF',
+        marginLeft: 20,
+        marginBottom: 30
     }
+
 })
